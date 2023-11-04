@@ -1,284 +1,353 @@
-*{
-    margin:0;
-    padding:0;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-sizing: border-box;
 }
-body{
-    background:#000;
-    color:#fff;
+
+body {
+    background: #000;
+    color: #fff;
 }
-.header{
-    width:100%;
-    height:100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/header-image.png);
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/header-image.png);
     background-size: cover;
-    background-position:center;
-    padding: 10px,8%;
+    background-position: center;
+    padding: 10px, 8%;
     position: relative;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 0;
 
 }
-.logo{
-    width:150px;
-    cursor:pointer;
-    margin-left:20px;
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+    margin-left: 20px;
 }
-nav button{
-    border:0;
+
+nav button {
+    border: 0;
     outline: 0;
     background: #db0001;
-    color:#fff;
-    padding:7px 20px;
+    color: #fff;
+    padding: 7px 20px;
     font-size: 12px;
     border-radius: 4px;
     margin-left: 10px;
-    margin-right:20px;
-    cursor:pointer;
+    margin-right: 20px;
+    cursor: pointer;
 }
-.language-btn{
+
+.language-btn {
     display: inline-flex;
-    align-items:center;
+    align-items: center;
     background: transparent;
-    border:1px solid #fff;
-    padding:7px 10px;
+    border: 1px solid #fff;
+    padding: 7px 10px;
 }
-.language-btn img{
-    width:10px;
-    margin-left:10px;
+
+.language-btn img {
+    width: 10px;
+    margin-left: 10px;
 
 
 }
-.header-content{
+
+.header-content {
     position: absolute;
-    top:50%;
-    left:30%;
+    top: 50%;
+    left: 30%;
     transform: translateY(-50%);
-    width: 40%; 
-    text-align:center;
+    width: 40%;
+    text-align: center;
 
-}   
-.header-content h1{
-    font-size: 50px;
-    font-weight:600;
-    max-width: 650px;
-    line-height:70px;
 }
-.header-content h3{
+
+.header-content h1 {
+    font-size: 50px;
+    font-weight: 600;
+    max-width: 650px;
+    line-height: 70px;
+}
+
+.header-content h3 {
     font-size: 19px;
     margin-top: 15px;
     margin-bottom: 20px;
 
 }
-.header-content p{
+
+.header-content p {
     margin-bottom: 20px;
 }
-.header-content button{
+
+.header-content button {
     background: #fff;
-    color:#000;
-    padding:10px 20px;
+    color: #000;
+    padding: 10px 20px;
     font-size: 20px;
     font-weight: 500;
     border-radius: 4px;
-    cursor:pointer;
+    cursor: pointer;
 }
-.email-signup{
+
+.email-signup {
     background: #fff;
     border-radius: 4px;
     display: flex;
     align-items: center;
-    margin-top:30px;
+    margin-top: 30px;
     overflow: hidden;
 }
-.email-signup input{
-    flex:1;
-    border:0;
+
+.email-signup input {
+    flex: 1;
+    border: 0;
     outline: 0;
     margin-left: 20px;
 }
-.email-signup button{
+
+.email-signup button {
     background: #db0001;
     border: 0;
     outline: 0;
-    color:#fff;
+    color: #fff;
     font-size: 16px;
     padding: 15px 30px;
-    cursor:pointer;
+    cursor: pointer;
 }
-.features{
-    padding: 50px 8%;
-    font-size:22px;
 
+.features {
+    padding: 50px 8%;
+    font-size: 22px;
+    border-top: 6px solid #333;
+    color: #fffefe;
 }
-.row{
-    display: flex;
+.features hr{
+    border: 3px solid #333;
     width:100%;
+    margin: 20px 0;
+}
+
+.row {
+    display: flex;
+    width: 100%;
     align-items: center;
     flex-wrap: wrap;
-    padding:50px 0;
+    padding: 50px 0;
 
 }
-.text-col{
-    flex-basis:50%;
+
+.text-col {
+    flex-basis: 50%;
     margin-bottom: 20px;
 }
-.img-col{
-    flex-basis:50%;
+
+.img-col {
+    flex-basis: 50%;
     margin-bottom: 20px;
 }
-.img-col img{
+
+.img-col img {
     display: block;
-    width:90%;
-    margin:auto;
+    width: 90%;
+    margin: auto;
 }
-.features h2{
+
+.features h2 {
     font-size: 50px;
     font-weight: 600;
     margin-bottom: 20px;
 }
-.features p{
+
+.features p {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 20px;
 }
-.faq{
+
+.faq {
     padding: 10px 12%;
-    font-size:18px;
+    font-size: 18px;
     text-align: center;
 }
-.faq h2{
+
+.faq h2 {
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 20px;
 }
-.faq p{
+
+.faq p {
     font-size: 15px;
     margin-bottom: 20px;
     font-family: "sans-serif";
 }
-.accordion{
+
+.accordion {
     margin: 60px auto;
     width: 100%;
     max-width: 750px;
 }
-.accordion li{
-    list-style-type:none;
-    width:100%;
-    padding:5px;
+
+.accordion li {
+    list-style-type: none;
+    width: 100%;
+    padding: 5px;
 }
-.accordion li label{
+
+.accordion li label {
     display: flex;
     align-items: center;
     padding: 20px;
-    font-size:18px;
-    font-weight:500;
+    font-size: 18px;
+    font-weight: 500;
     background: #303030;
-    margin-bottom:2px;
-    cursor:pointer;
+    margin-bottom: 2px;
+    cursor: pointer;
     position: relative;
 }
-label::after{
+
+label::after {
     content: '+';
     position: absolute;
-    right:20px;
+    right: 20px;
     font-size: 34px;
     transition: transform 0.5s;
 
 }
-input[type="radio"]{
+
+input[type="radio"] {
     display: none;
 }
-.accordion .content{
+
+.accordion .content {
     background: #303030;
     text-align: left;
-    padding:0 20px;
+    padding: 0 20px;
     overflow: hidden;
     max-height: 0;
-    transition: max-height 0.5s,padding 0.5s;
+    transition: max-height 0.5s, padding 0.5s;
 }
-.accordion input[type="radio"]:checked + label + .content{
+
+.accordion input[type="radio"]:checked+label+.content {
     max-height: 600px;
     padding: 30px 20px;
 }
-.accordion input[type="radio"]:checked + label::after{
+
+.accordion input[type="radio"]:checked+label::after {
     transform: rotate(135deg);
 }
-.faq .email-signup{
-    max-width:600px;
+
+.faq .email-signup {
+    max-width: 600px;
     margin: 20px auto 60px;
 
 }
-.faq small{
-    font-size:13px;
+
+.faq small {
+    font-size: 13px;
 }
 
-.footer{
+.footer {
     padding: 50px 15% 10px;
     border-top: 6px solid #333;
     color: #777;
 }
-.footer h2{
+
+.footer h2 {
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 30px;
 }
-.footer .col{
+
+.footer .col {
     flex-basis: 25%;
-    flex-grow:1;
-    width:25%;
+    flex-grow: 1;
+    width: 25%;
     padding: 0 10px;
 }
-.footer .col a{
-    display:block;
-    text-decoration:none;
-    color:#777;
+
+.footer .col a {
+    display: block;
+    text-decoration: none;
+    color: #777;
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 20px;
 }
-.footer .row{
-    align-items:flex-start;
+
+.footer .row {
+    align-items: flex-start;
     padding: 10px 0px;
 
 }
-.footer .language-btn{
-    color:white;
-    padding:10px 20px;
+
+.footer .language-btn {
+    color: white;
+    padding: 10px 20px;
     font-size: 14px;
-    border-radius:3px;
+    border-radius: 3px;
 }
-.copyright-txt{
-    font-size:14px;
-    margin-top:20px;
-    color:#9b9b9b;
+
+.copyright-txt {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #9b9b9b;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 0);
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    width: 10px;
+    background-color: rgb(255, 0, 0);
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    display: none;
+}
+
 /* media queries */
 
-@media (max-width: 550px)
- {  
-    .logo{
-        width:100px;
+@media (max-width: 550px) {
+    .logo {
+        width: 100px;
     }
+
     .nav button {
         padding: 5px 10px;
         font-size: 14px;
-      }
-    
+    }
+
     .nav .language-btn {
         padding: 4px 8px;
         font-size: 14px;
-      }
+    }
+
     .header-content {
         width: 80%;
         left: 10%;
         position: unset;
-        margin-top:240px;
-        margin-left:30px;
+        margin-top: 240px;
+        margin-left: 30px;
         padding-top: 150px;
     }
 
