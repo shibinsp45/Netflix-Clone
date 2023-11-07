@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#hero {
+    background-image: url(assets/background.jpg);
+    height: 700px;
+    background-size: cover;
+}
+
+i {
+    color: white;
+    font-size: 20px;
+}
+
+.hero-buttons button {
+    color: white;
+    background: rgba(255, 255, 255, 0.23);
+    border-radius: 4px;
+}
+
+#movie img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.footer {
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+}
+
+.footer h2 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.footer .col {
+    flex-basis: 25%;
+    flex-grow: 1;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.footer .col a {
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer .row {
+    align-items: flex-start;
+    padding: 10px 0px;
+
+}
+
+.footer .language-btn {
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.copyright-txt {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #9b9b9b;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 0);
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    width: 10px;
+    background-color: rgb(255, 0, 0);
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    display: none;
+}

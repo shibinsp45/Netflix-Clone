@@ -85,7 +85,7 @@ nav a {
 }
 
 .header-content h3 {
-    font-size: 19px;
+    font-size: 18px;
     margin-top: 15px;
     margin-bottom: 20px;
 
@@ -195,7 +195,6 @@ nav a {
 .faq p {
     font-size: 15px;
     margin-bottom: 20px;
-    font-family: "sans-serif";
 }
 
 .accordion {
