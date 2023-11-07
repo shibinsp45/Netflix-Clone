@@ -1,8 +1,7 @@
-**Netflix Clone - Your Movie Destination**
 
-I'm excited to share my Netflix clone with you! 🍿✨
-
- 🎥
+# 🌴 #Netflix Clone - Your Movie Destination
+## I'm excited to share my Netflix clone with you! 🍿✨
+Check out the magic yourself: [Netflix Clone](https://shibinsp45.github.io/Netflix-Clone/)
 
 🚀 Welcome to my user-friendly Netflix clone, where movie magic comes to life through the power of HTML, CSS, and Tailwind enchantment. With a stunning movie catalog and user accounts, you can now enjoy your favorite films and shows hassle-free. 🪄
 
@@ -11,7 +10,7 @@ I'm excited to share my Netflix clone with you! 🍿✨
 - 🎬 Extensive Movie Catalog
 - 👤 User Accounts for Personalized Experience
 
-Check out the magic yourself: [Netflix Clone](https://github.com/yourgithubusername/your-netflix-clone-repo)
+
 
 Grab your popcorn, sit back, and enjoy the show! 🍿📽️💫
 
